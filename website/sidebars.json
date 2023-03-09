@@ -1,0 +1,623 @@
+{
+  "개념": [
+    "concepts/welcome",
+    {
+      "type": "html",
+      "value": "<hr/>"
+    },
+    {
+      "type": "html",
+      "value": "<span class='menu__link'><b><small> NEAR 프로토콜 </small></b></span>"
+    },
+    "concepts/basics/protocol",
+    {
+      "계정": [
+        "concepts/basics/accounts/model",
+        "concepts/basics/accounts/account-id",
+        "concepts/basics/accounts/access-keys",
+        "concepts/basics/accounts/smartcontract",
+        "concepts/basics/accounts/state",
+        {
+          "type": "html",
+          "value": "<hr/>"
+        },
+        "concepts/basics/accounts/creating-accounts"
+      ]
+    },
+    {
+      "트랜잭션": [
+        "concepts/basics/transactions/overview",
+        {
+          "가스": [
+            "concepts/basics/transactions/gas",
+            "concepts/basics/transactions/gas-advanced"
+          ]
+        }
+      ]
+    },
+    {
+      "데이터 흐름": [
+        "concepts/data-flow/near-data-flow",
+        "concepts/data-flow/data-storage",
+        "concepts/data-flow/token-transfer-flow"
+      ]
+    },
+    {
+      "토큰": [
+        "concepts/basics/tokens",
+        "concepts/basics/token-loss"
+      ]
+    },
+    {
+      "스토리지": [
+        "concepts/storage/data-storage",
+        "concepts/storage/storage-staking",
+        "concepts/storage/storage-solutions"
+      ]
+    },
+    "concepts/basics/validators",
+    "concepts/basics/networks",
+    "concepts/basics/epoch",
+    {
+      "type": "html",
+      "value": "<hr/>"
+    },
+    {
+      "type": "html",
+      "value": "<span class='menu__link'><b><small> 심화 주제 </small></b></span>"
+    },
+    [
+      {
+        "인덱서": [
+          "concepts/advanced/indexers",
+          "concepts/advanced/near-indexer-framework",
+          "concepts/advanced/near-lake-framework"
+        ]
+      },
+      "concepts/basics/runtime",
+      "concepts/advanced/specification",
+      "concepts/advanced/papers"
+    ],
+    {
+      "type": "html",
+      "value": "<hr/>"
+    },
+    {
+      "type": "html",
+      "value": "<span class='menu__link'><b><small> Web 2에서 Web 3로 </small></b></span>"
+    },
+    [
+      "concepts/web3/intro",
+      "concepts/web3/basics",
+      "concepts/web3/near",
+      "concepts/web3/economics",
+      "concepts/web3/nfts"
+    ]
+  ],
+  "개발": [
+    "develop/welcome",
+    {
+      "type": "html",
+      "value": "<hr/>"
+    },
+    {
+      "type": "html",
+      "value": "<span class='menu__link'><b><small> 탈중앙화 앱 구축 </small></b></span>"
+    },
+    "develop/quickstart-guide",
+    {
+      "컨트랙트 개발": [
+        "develop/contracts/whatisacontract",
+        {
+          "빌드": [
+            "develop/contracts/introduction",
+            "develop/contracts/basics",
+            "develop/contracts/anatomy",
+            "develop/contracts/environment/environment",
+            "develop/contracts/storage",
+            "develop/contracts/actions",
+            "develop/contracts/crosscontract",
+            "develop/contracts/security/checklist",
+            {
+              "type": "html",
+              "value": "<hr/>"
+            },
+            "develop/contracts/serialization"
+          ]
+        },
+        {
+          "테스트": [
+            "develop/testing/introduction",
+            "develop/testing/unit-test",
+            "develop/testing/integration-test",
+            {
+              "type": "html",
+              "value": "<hr/>"
+            },
+            "develop/testing/kurtosis-localnet",
+            "develop/testing/workspaces-migration"
+          ]
+        },
+        {
+          "배포 & 유지관리": [
+            "develop/deploy",
+            "develop/upgrade",
+            "develop/lock",
+            {
+              "type": "html",
+              "value": "<hr/>"
+            }
+          ]
+        },
+        {
+          "type": "html",
+          "value": "<hr/>"
+        },
+        {
+          "type": "category",
+          "label": "Security",
+          "link": {
+            "type": "doc",
+            "id": "develop/contracts/security/welcome"
+          },
+          "items": [
+            "develop/contracts/security/storage",
+            "develop/contracts/security/callbacks",
+            "develop/contracts/security/one-yocto",
+            "develop/contracts/security/sybil",
+            "develop/contracts/security/frontrunning",
+            "develop/contracts/security/reentrancy",
+            "develop/contracts/security/random",
+            {
+              "type": "html",
+              "value": "<hr/>"
+            },
+            "develop/contracts/security/audits",
+            "develop/contracts/security/bounty"
+          ]
+        }
+      ]
+    },
+    "develop/integrate/frontend",
+    {
+      "사용자 활동 모니터링": [
+        "tools/realtime",
+        "tools/indexer-for-explorer",
+        "tutorials/indexer/migrating-to-near-lake-framework"
+      ]
+    },
+    {
+      "type": "html",
+      "value": "<hr/>"
+    },
+    {
+      "type": "html",
+      "value": "<span class='menu__link'><b><small> 개발자 도구 </small></b></span>"
+    },
+    {
+      "NEAR SDKs": [
+        {
+          "type": "link",
+          "label": "JavaScript SDK ↗",
+          "href": "/sdk/js/introduction"
+        },
+        {
+          "type": "link",
+          "label": "Rust SDK ↗",
+          "href": "/sdk/rust/introduction"
+        },
+        {
+          "type": "link",
+          "label": "JS SDK Type Docs ↗",
+          "href": "/sdk/near-sdk-js/reference"
+        }
+      ]
+    },
+    "tools/near-cli",
+    "tools/near-cli-rs",
+    "tools/wallet-selector",
+    {
+      "type": "category",
+      "label": "JavaScript API",
+      "items": [
+        "tools/near-api-js/quick-reference",
+        "tools/near-api-js/wallet",
+        "tools/near-api-js/account",
+        "tools/near-api-js/contract",
+        "tools/near-api-js/utils",
+        "tools/near-api-js/faq",
+        {
+          "type": "link",
+          "label": "시드구문 다루기",
+          "href": "https://github.com/near/near-seed-phrase"
+        },
+        {
+          "type": "link",
+          "label": "자료형 문서 ↗",
+          "href": "/tools/near-api-js/reference"
+        }
+      ]
+    },
+    {
+      "type": "link",
+      "label": "RPC API ↗",
+      "href": "/api/rpc/introduction"
+    },
+    {
+      "type": "html",
+      "value": "<hr/>"
+    },
+    {
+      "type": "html",
+      "value": "<span class='menu__link'><b><small> 커뮤니티 도구 </small></b></span>"
+    },
+    {
+      "지갑 & 익스플로러": [
+        {
+          "type": "link",
+          "label": "👛 지갑",
+          "href": "https://awesomenear.com/categories/wallets"
+        },
+        "tools/explorer",
+        "tools/indexing"
+      ]
+    },
+    {
+      "금융": [
+        {
+          "type": "link",
+          "label": "💱 온램프 결제",
+          "href": "https://awesomenear.com/categories/payments"
+        },
+        "develop/relevant-contracts/oracles"
+      ]
+    },
+    {
+      "거버넌스": [
+        {
+          "type": "link",
+          "label": "🏛️ AstroDAO",
+          "href": "https://astrodao.com/"
+        },
+        {
+          "type": "link",
+          "label": "🔑 Multisig",
+          "href": "https://multisafe.io"
+        }
+      ]
+    },
+    {
+      "type": "html",
+      "value": "<hr/>"
+    },
+    {
+      "type": "html",
+      "value": "<span class='menu__link'><b><small> Ethereum 생태계 </small></b></span>"
+    },
+    {
+      "type": "link",
+      "label": "Aurora (EVM)",
+      "href": "https://aurora.dev"
+    },
+    {
+      "type": "link",
+      "label": "Rainbow Bridge",
+      "href": "https://rainbowbridge.app/transfer"
+    }
+  ],
+  "api": [
+    "api/rpc/introduction",
+    "api/rpc/providers",
+    {
+      "type": "html",
+      "value": "<hr/>"
+    },
+    {
+      "type": "html",
+      "value": "<span class='menu__link'><b><small> NEAR RPC API </small></b></span>"
+    },
+    "api/rpc/setup",
+    "api/rpc/access-keys",
+    "api/rpc/contracts",
+    "api/rpc/block-chunk",
+    "api/rpc/gas",
+    "api/rpc/protocol",
+    "api/rpc/network",
+    "api/rpc/transactions"
+  ],
+  "튜토리얼": [
+    {
+      "type": "doc",
+      "id": "tutorials/welcome",
+      "label": "Home"
+    },
+    {
+      "type": "html",
+      "value": "<hr/>"
+    },
+    {
+      "type": "html",
+      "value": "<span class='menu__link'><b><small> 예제 </small></b></span>"
+    },
+    {
+      "기본 예제": [
+        "tutorials/examples/hello-near",
+        "tutorials/examples/count-near",
+        "tutorials/examples/guest-book",
+        "tutorials/examples/donation",
+        "tutorials/examples/xcc",
+        "tutorials/examples/coin-flip"
+      ]
+    },
+    {
+      "심화 예제": [
+        "tutorials/examples/factory",
+        "tutorials/examples/escrow",
+        "tutorials/examples/frontend-multiple-contracts",
+        "tutorials/examples/advanced-xcc",
+        "tutorials/examples/update-contract-migrate-state"
+      ]
+    },
+    {
+      "type": "html",
+      "value": "<hr/>"
+    },
+    {
+      "type": "html",
+      "value": "<span class='menu__link'><b><small> 튜토리얼 </small></b></span>"
+    },
+    {
+      "대체 가능한 토큰": [
+        "develop/relevant-contracts/ft",
+        "tutorials/fts/simple-fts"
+      ]
+    },
+    {
+      "대체 불가능 토큰": [
+        "develop/relevant-contracts/nft",
+        "tutorials/nfts/minting-nfts",
+        "tutorials/nfts/minting-nft-frontend",
+        "tutorials/nfts/minecraft-nfts",
+        {
+          "type": "link",
+          "label": "Building a Frontend",
+          "href": "https://github.com/near-examples/nft-tutorial-frontend"
+        }
+      ]
+    },
+    "develop/relevant-contracts/dao",
+    {
+      "NEAR Lake 인덱서": [
+        "tutorials/indexer/near-lake-state-changes-indexer",
+        "tutorials/indexer/js-lake-indexer",
+        "tutorials/indexer/lake-start-options",
+        "tutorials/indexer/python-lake-indexer",
+        "tutorials/indexer/nft-indexer",
+        "tutorials/indexer/python-nft-indexer",
+        "tutorials/indexer/credentials"
+      ]
+    },
+    {
+      "type": "html",
+      "value": "<hr/>"
+    },
+    {
+      "type": "html",
+      "value": "<span class='menu__link'><b><small> Zero to Hero </small></b></span>"
+    },
+    {
+      "NEAR NFT 마스터하기": [
+        {
+          "🌐 JavaScript SDK 사용": [
+            "tutorials/nfts/js/introduction",
+            "tutorials/nfts/js/predeployed-contract",
+            "tutorials/nfts/js/skeleton",
+            "tutorials/nfts/js/minting",
+            "tutorials/nfts/js/upgrade-contract",
+            "tutorials/nfts/js/enumeration",
+            "tutorials/nfts/js/core",
+            "tutorials/nfts/js/approvals",
+            "tutorials/nfts/js/royalty",
+            "tutorials/nfts/js/events",
+            "tutorials/nfts/js/marketplace"
+          ]
+        },
+        {
+          "🦀 Rust SDK 사용": [
+            "tutorials/nfts/introduction",
+            "tutorials/nfts/predeployed-contract",
+            "tutorials/nfts/skeleton",
+            "tutorials/nfts/minting",
+            "tutorials/nfts/upgrade-contract",
+            "tutorials/nfts/enumeration",
+            "tutorials/nfts/core",
+            "tutorials/nfts/approvals",
+            "tutorials/nfts/royalty",
+            "tutorials/nfts/events",
+            "tutorials/nfts/marketplace",
+            "tutorials/nfts/series"
+          ]
+        }
+      ]
+    },
+    {
+      "대체 가능한 토큰 101": [
+        "tutorials/fts/introduction",
+        "tutorials/fts/predeployed-contract",
+        "tutorials/fts/skeleton",
+        "tutorials/fts/defining-a-token",
+        "tutorials/fts/circulating-supply",
+        "tutorials/fts/registering-accounts",
+        "tutorials/fts/transfers",
+        "tutorials/fts/marketplace"
+      ]
+    },
+    {
+      "십자말풀이 게임": [
+        {
+          "type": "category",
+          "label": "Basics",
+          "items": [
+            "tutorials/crosswords/basics/overview",
+            "tutorials/crosswords/basics/set-up-skeleton",
+            "tutorials/crosswords/basics/add-functions-call",
+            "tutorials/crosswords/basics/hashing-and-unit-tests",
+            "tutorials/crosswords/basics/simple-frontend"
+          ]
+        },
+        {
+          "type": "category",
+          "label": "Beginner",
+          "items": [
+            "tutorials/crosswords/beginner/overview",
+            "tutorials/crosswords/beginner/collections",
+            "tutorials/crosswords/beginner/structs-enums",
+            "tutorials/crosswords/beginner/actions",
+            "tutorials/crosswords/beginner/adding-a-puzzle",
+            "tutorials/crosswords/beginner/logging-in",
+            "tutorials/crosswords/beginner/logging-in-implementation"
+          ]
+        },
+        {
+          "type": "category",
+          "label": "Intermediate",
+          "items": [
+            "tutorials/crosswords/intermediate/overview",
+            "tutorials/crosswords/intermediate/access-key-solution",
+            "tutorials/crosswords/intermediate/use-seed-phrase",
+            "tutorials/crosswords/intermediate/linkdrop",
+            "tutorials/crosswords/intermediate/cross-contract-calls",
+            "tutorials/crosswords/intermediate/base64vecu8"
+          ]
+        }
+      ]
+    }
+  ],
+  "sdk": [
+    "sdk/welcome",
+    {
+      "Rust SDK": [
+        "sdk/rust/introduction",
+        "sdk/rust/get-started",
+        {
+          "컨트랙트 구조": [
+            "sdk/rust/contract-structure/near-bindgen",
+            "sdk/rust/contract-structure/collections",
+            "sdk/rust/contract-structure/nesting"
+          ]
+        },
+        {
+          "컨트랙트 인터페이스": [
+            "sdk/rust/contract-interface/public-methods",
+            "sdk/rust/contract-interface/contract-mutability",
+            "sdk/rust/contract-interface/private-methods",
+            "sdk/rust/contract-interface/payable-methods",
+            "sdk/rust/contract-interface/serialization-interface"
+          ]
+        },
+        {
+          "교차 컨트랙트 호출": [
+            "sdk/rust/cross-contract/callbacks"
+          ]
+        },
+        {
+          "Promise": [
+            "sdk/rust/promises/intro",
+            "sdk/rust/promises/token-tx",
+            "sdk/rust/promises/create-account",
+            "sdk/rust/promises/deploy-contract"
+          ]
+        },
+        {
+          "컨트랙트 빌드": [
+            "sdk/rust/building/basics",
+            "sdk/rust/building/prototyping",
+            "sdk/rust/building/post-processing",
+            "sdk/rust/building/reproducible-builds"
+          ]
+        },
+        {
+          "테스트": [
+            "sdk/rust/testing/integration-tests",
+            "sdk/rust/testing/unit-tests"
+          ]
+        },
+        "sdk/rust/best-practices",
+        "sdk/rust/contract-size"
+      ],
+      "JavaScript SDK": [
+        "sdk/js/introduction",
+        "sdk/js/get-started",
+        {
+          "type": "link",
+          "label": "자료형 문서 ↗",
+          "href": "/sdk/near-sdk-js/reference"
+        },
+        {
+          "컨트랙트 구조": [
+            "sdk/js/contract-structure/near-bindgen",
+            "sdk/js/contract-structure/collections"
+          ]
+        },
+        {
+          "컨트랙트 인터페이스": [
+            "sdk/js/contract-interface/public-methods",
+            "sdk/js/contract-interface/private-methods",
+            "sdk/js/contract-interface/payable-methods"
+          ]
+        },
+        {
+          "교차 컨트랙트 호출": [
+            "sdk/js/cross-contract/callbacks"
+          ]
+        },
+        {
+          "Promise": [
+            "sdk/js/promises/intro",
+            "sdk/js/promises/token-tx",
+            "sdk/js/promises/create-account",
+            "sdk/js/promises/deploy-contract"
+          ]
+        },
+        {
+          "컨트랙트 빌드": [
+            "sdk/js/building/basics",
+            "sdk/js/building/prototyping",
+            "sdk/js/building/reproducible-builds"
+          ]
+        },
+        {
+          "SDK CLI": [
+            "sdk/js/cli/cli"
+          ]
+        },
+        {
+          "테스트": [
+            "sdk/js/testing/integration-tests",
+            "sdk/js/testing/unit-tests"
+          ]
+        }
+      ]
+    }
+  ],
+  "통합": [
+    {
+      "통합": [
+        "integrator/exchange-integration",
+        "integrator/balance-changes",
+        "integrator/accounts",
+        "integrator/create-transactions",
+        "integrator/fungible-tokens",
+        "integrator/implicit-accounts"
+      ]
+    },
+    {
+      "오류 이해하기": [
+        "integrator/errors/introduction",
+        "integrator/errors/error-implementation",
+        "integrator/errors/token-loss"
+      ]
+    },
+    "integrator/faq"
+  ]
+}
