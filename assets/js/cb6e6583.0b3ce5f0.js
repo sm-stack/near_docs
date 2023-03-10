@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk=self.webpackChunk||[]).push([[2945],{76153:s=>{s.exports=JSON.parse('{"name":"docusaurus-plugin-content-docs","id":"near-sdk-js"}')}}]);

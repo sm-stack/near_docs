@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk=self.webpackChunk||[]).push([[2150],{24692:e=>{e.exports=JSON.parse('{"pluginId":"near-api-js","version":"__dummy","label":"__dummy","banner":"unmaintained","badge":true,"noIndex":false,"className":"docs-version-__dummy","isLast":false,"docsSidebars":{},"docs":{"dummy":{"id":"dummy","title":"dummy","description":"dummy for near-api-js"}}}')}}]);

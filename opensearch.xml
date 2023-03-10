@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  <ShortName>NEAR 문서</ShortName>
+  <Description>Search NEAR 문서</Description>
+  <InputEncoding>UTF-8</InputEncoding>
+  <Image width="16" height="16" type="image/x-icon">https://sm-stack.github.io/near_docs/img/favicon.ico</Image>
+  <Url type="text/html" method="get" template="https://sm-stack.github.io/near_docs/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://sm-stack.github.io/near_docs/opensearch.xml" />
+  <moz:SearchForm>https://sm-stack.github.io/near_docs/</moz:SearchForm>
+</OpenSearchDescription>
